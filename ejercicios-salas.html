@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Botones sin nombre</title>
+        <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+        
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -33,15 +37,15 @@
 
         <!-- Botones sin texto -->
         <button id="btn1"></button>
-        <button id="btn2">Siguiente</button>
-        <button id="btn3"></button>
+        <button id="btn2"></button>
+        <button class="btn btn-primary" id="btn3" type="button"></button>
 
         <!-- Puedes agregar el nombre después con JavaScript -->
         <script>
             // Ejemplo de cómo ponerles nombre luego
-            document.getElementById("btn1").textContent = "Botón 1";
-            document.getElementById("btn2").textContent = "Botón 2";
-            document.getElementById("btn3").textContent = "Botón 3";
+            document.getElementById("btn1").textContent = "Joaquina";
+            document.getElementById("btn2").textContent = "Ariel";
+            document.getElementById("btn3").textContent = "Raimundo";
         </script>
 
     </body>
